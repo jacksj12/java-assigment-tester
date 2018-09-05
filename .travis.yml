@@ -34,6 +34,10 @@ cache:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
 
+# delete old gatorgrader for clean slate
+before_script:
+  - rm -rf $HOME/.local/share/gatorgrader/
+
 # run grading checks
 script:
   # lint the sample documentation writing

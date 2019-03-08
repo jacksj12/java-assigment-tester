@@ -1,7 +1,19 @@
+buildscript {
+  repositories {
+    maven {
+      url "https://plugins.gradle.org/m2/"
+    }
+  }
+  dependencies {
+    classpath "gradle.plugin.org.gatored:gatorgradle:+"
+  }
+}
+
 plugins {
-  id "org.gatored.gatorgradle" version "0.3.4"
   id "java"
 }
+
+apply plugin: "org.gatored.gatorgradle"
 
 // declare the repositories that are used to meet dependencies
 repositories {

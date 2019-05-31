@@ -3,7 +3,8 @@ name: gatorgrader-samplelab
 break: true
 fastfail: false
 indent: 4
-version: v0.2.0
+version: master
+lambda: https://5f3q77mm8l.execute-api.us-east-1.amazonaws.com/default/echo
 executables: cat, bash
 ---
 src/main:

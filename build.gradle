@@ -6,8 +6,8 @@ buildscript {
     mavenLocal()
     dependencies {
       // when downloading from plugin portal 'gradle.plugin' must be added
-      //classpath "org.gatored:gatorgradle:+"
-      classpath "gradle.plugin.org.gatored:gatorgradle:0.4.+"
+      classpath "org.gatored:gatorgradle:+"
+      //classpath "gradle.plugin.org.gatored:gatorgradle:0.4.+"
     }
   }
 }

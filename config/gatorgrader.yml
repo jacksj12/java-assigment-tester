@@ -5,6 +5,7 @@ fastfail: false
 indent: 4
 version: v0.2.0
 executables: cat, bash
+startup: ./config/startup.sh
 ---
 src/main:
     java:
@@ -20,9 +21,12 @@ src/main:
             --multi 1 --language Java
             --single 1 --language Java
             --fragment "int " --count 1
-writing/reflection.md:
-    mdl
-    cat
-    --paragraphs 2
-    --words 6
+writing:
+    (pure) ./writing-check.sh reflection.md param2
+    reflection.md:
+        mdl
+        cat
+        --paragraphs 2
+        --words 6
+
 --commits 18

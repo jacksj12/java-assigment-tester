@@ -1,4 +1,4 @@
-# GatorGrader Sample Laboratory Assignment
+# GatorGrader Test Assignment
 
 ## Task list for assignment creation
 
